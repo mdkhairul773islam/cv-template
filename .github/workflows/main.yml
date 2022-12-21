@@ -15,6 +15,5 @@ jobs:
         with:
           server: ftp.khairulislam.xyz
           username: math@khairulislam.xyz
-          # password: ${{ secrets.ftp_password }}
-          password: CngEY5%Io%GS
+          password: ${{ secrets.ftp_password }}
           server-dir: /public_html/khairulislam.xyz/math
