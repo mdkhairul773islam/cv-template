@@ -17,7 +17,7 @@ jobs:
           server: ftp.khairulislam.xyz
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /public_html/
+          server-dir: /public_html/math.khairulislam.xyz/
           protocol: ftp
           port: 21
           dry-run: true
