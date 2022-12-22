@@ -18,5 +18,7 @@ jobs:
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           server-dir: /public_html/
-          #dry-run: true
-          ARGS: --verbose
+          protocol: ftps
+          port: 21
+          dry-run: true
+          #ARGS: --verbose
