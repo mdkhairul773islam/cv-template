@@ -17,6 +17,7 @@ jobs:
           server: ftp.khairulislam.xyz
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
+          local-dir: ./
           server-dir: /public_html/
           protocol: ftp
           port: 21
